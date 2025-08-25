@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <ul class="sidebar">
+            <div onclick="hidesidebar()"><a href="" class="close-icon"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></div>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Properties</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <ul class="nav-links">
+            <li><a href=""><p>Emmanuel <span>Azubuike
+</span></p></a></li>
+            <li class="hide"><a href="">Home</a></li>
+            <li class="hide"><a href="">About</a></li>
+            <li class="hide"><a href="">Properties</a></li>
+            <li class="hide"><a href="">Services</a></li>
+            <li class="hide"><a href="">Contact</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+    <main>
+      <section>
+        <div class="welcome">
+          <p class="fi">Designing Spaces,</p>
+          <p><span>Building Dreams</span></p>
+        </div>
+
+        <p class="grety">With years of architectural expertise and a passion for exceptional real estate, I create spaces that inspire and investments that prosper.</p>
+
+        <div class="btns">
+          <button class="btn1">Explore Listings <i class="fas fa-arrow-right"></i></button>
+          <button class="btn2">Learn More</button>
+        </div>
+
+
+
+        <!-- Add this inside your <section> in index.html -->
+<div class="stats">
+  <div class="stat">
+    <div class="stat-icon"><i class="fa fa-building"></i></div>
+    <div class="stat-number">50+</div>
+    <div class="stat-label">Projects</div>
+  </div>
+  <div class="stat">
+    <div class="stat-icon"><i class="fa fa-users"></i></div>
+    <div class="stat-number">200+</div>
+    <div class="stat-label">Happy Clients</div>
+  </div>
+  <div class="stat">
+    <div class="stat-icon"><i class="fa fa-certificate"></i></div>
+    <div class="stat-number">15+</div>
+    <div class="stat-label">Years Experience</div>
+  </div>
+</div>
+<div class="scroll-indicator">
+  <i class="fa-light fa-computer-mouse"></i>
+</div>
+      </section>
+    </main>
+
+    <section class="about">
+      <p>About <span>Emmanuel Azubuike</span></p>
+      <p class="grey">Architect, Real Estate Developer, and Visionary Leader</p>
+    </section>
+        
+<div class="since">
+  <p class="ex">Building Excellence Since 2010</p>
+  <p class="talk">Emmanuel Azubuike is a distinguished architect and real estate professional based in Lagos, Nigeria. With a passion for innovative design and a deep understanding of market dynamics, he has established himself as a trusted name in luxury real estate development.</p>
+  <p class="talk1">Emmanuel Azubuike is a distinguished architect and real estate professional based in Lagos, Nigeria. With a passion for innovative design and a deep understanding of market dynamics, he has established himself as a trusted name in luxury real estate development.</p>
+  
+  <ul class="highlights">
+    <li><i class="fa fa-check-circle"></i> Licensed Architect with 15+ years experience</li>
+    <li><i class="fa fa-check-circle"></i> Specialized in luxury residential and commercial projects</li>
+    <li><i class="fa fa-check-circle"></i> Award-winning designs recognized nationally</li>
+    <li><i class="fa fa-check-circle"></i> Expert in sustainable architecture practices</li>
+    <li><i class="fa fa-check-circle"></i> Proven track record in real estate development</li>
+    <li><i class="fa fa-check-circle"></i> Member of Nigerian Institute of Architects</li>
+  </ul>
+
+  <div class="architect-photo">
+    <img src="emma.jpg" alt="Emmanuel Azubuike" />
+  </div>
+</div>
+
+<div class="core-values">
+  <div class="core-card">
+    <div class="core-icon"><i class="fa fa-bullseye"></i></div>
+    <h3>Vision</h3>
+    <p>To create architectural masterpieces that enhance communities and deliver exceptional value to investors.</p>
+  </div>
+  <div class="core-card">
+    <div class="core-icon"><i class="fa fa-briefcase"></i></div>
+    <h3>Experience</h3>
+    <p>Over 15 years of combined experience in architecture, construction management, and real estate development.</p>
+  </div>
+  <div class="core-card">
+    <div class="core-icon"><i class="fa fa-graduation-cap"></i></div>
+    <h3>Expertise</h3>
+    <p>Graduate of Architecture from University of Lagos, with continuous professional development in modern design trends.</p>
+  </div>
+</div>
+
+<div class="properties">
+  <p class="grey">Featured <span>Properties</span></p>
+  <p class="subgrey">Discover a curated selection of luxury properties designed to inspire and captivate.</p>
+
+  <div class="property-cards">
+
+
+    <!-- ...existing code... -->
+<div class="property-cards">
+  <div class="property-card">
+    <div class="property-image">
+      <img src="prop-1.jpg" alt="Architectural Masterpiece Banana Island">
+      <span class="badge available">Available</span>
+      <span class="badge featured">Featured</span>
+      <button class="view-details-btn"><i class="fa fa-eye"></i> View Details</button>
+    </div>
+    <div class="property-info">
+      <h3>Architectural Masterpiece Banana Island</h3>
+      <p><i class="fa fa-map-marker"></i> Banana Island, Lagos</p>
+      <div class="property-meta">
+        <span><i class="fa fa-bed"></i> 6</span>
+        <span><i class="fa fa-bath"></i> 7</span>
+        <span><i class="fa fa-th-large"></i> 650m²</span>
+      </div>
+      <div class="property-price">₦500,000,000</div>
+      <button class="details-btn">View Details</button>
+    </div>
+  </div>
+  <div class="property-card">
+    <div class="property-image">
+      <img src="prop-2.jpg" alt="Smart Home Ajah">
+      <span class="badge available">Available</span>
+      <button class="view-details-btn"><i class="fa fa-eye"></i> View Details</button>
+    </div>
+    <div class="property-info">
+      <h3>Smart Home Ajah</h3>
+      <p><i class="fa fa-map-marker"></i> Ajah, Lagos</p>
+      <div class="property-meta">
+        <span><i class="fa fa-bed"></i> 3</span>
+        <span><i class="fa fa-bath"></i> 4</span>
+        <span><i class="fa fa-th-large"></i> 280m²</span>
+      </div>
+      <div class="property-price">₦95,000,000</div>
+      <button class="details-btn">View Details</button>
+    </div>
+  </div>
+  <div class="property-card">
+    <div class="property-image">
+      <img src="prop-3.jpg" alt="Retail Plaza Surulere">
+      <span class="badge available">Available</span>
+      <button class="view-details-btn"><i class="fa fa-eye"></i> View Details</button>
+    </div>
+    <div class="property-info">
+      <h3>Retail Plaza Surulere</h3>
+      <p><i class="fa fa-map-marker"></i> Surulere, Lagos</p>
+      <div class="property-meta">
+        <span><i class="fa fa-bed"></i> 8</span>
+        <span><i class="fa fa-bath"></i> 8</span>
+        <span><i class="fa fa-th-large"></i> 800m²</span>
+      </div>
+      <div class="property-price">₦300,000,000</div>
+      <button class="details-btn">View Details</button>
+    </div>
+  </div>
+  <div class="property-card">
+    <div class="property-image">
+      <img src="prop-4.jpg" alt="Luxury Penthouse Victoria Island">
+      <span class="badge available">Available</span>
+      <button class="view-details-btn"><i class="fa fa-eye"></i> View Details</button>
+    </div>
+    <div class="property-info">
+      <h3>Luxury Penthouse Victoria Island</h3>
+      <p><i class="fa fa-map-marker"></i> Victoria Island, Lagos</p>
+      <div class="property-meta">
+        <span><i class="fa fa-bed"></i> 4</span>
+        <span><i class="fa fa-bath"></i> 5</span>
+        <span><i class="fa fa-th-large"></i> 350m²</span>
+      </div>
+      <div class="property-price">₦250,000,000</div>
+      <button class="details-btn">View Details</button>
+    </div>
+  </div>
+  <div class="property-card">
+    <div class="property-image">
+      <img src="prop-5.jpg" alt="Modern Office Complex Ikoyi">
+      <span class="badge available">Available</span>
+      <span class="badge featured">Featured</span>
+      <button class="view-details-btn"><i class="fa fa-eye"></i> View Details</button>
+    </div>
+    <div class="property-info">
+      <h3>Modern Office Complex Ikoyi</h3>
+      <p><i class="fa fa-map-marker"></i> Ikoyi, Lagos</p>
+      <div class="property-meta">
+        <span><i class="fa fa-bed"></i> 10</span>
+        <span><i class="fa fa-bath"></i> 10</span>
+        <span><i class="fa fa-th-large"></i> 1200m²</span>
+      </div>
+      <div class="property-price">₦800,000,000</div>
+      <button class="details-btn">View Details</button>
+    </div>
+  </div>
+  <div class="property-card">
+    <div class="property-image">
+      <img src="prop-6.jpg" alt="Contemporary Villa Lekki Phase 1">
+      <span class="badge sold">Sold</span>
+      <button class="view-details-btn"><i class="fa fa-eye"></i> View Details</button>
+    </div>
+    <div class="property-info">
+      <h3>Contemporary Villa Lekki Phase 1</h3>
+      <p><i class="fa fa-map-marker"></i> Lekki Phase 1, Lagos</p>
+      <div class="property-meta">
+        <span><i class="fa fa-bed"></i> 5</span>
+        <span><i class="fa fa-bath"></i> 6</span>
+        <span><i class="fa fa-th-large"></i> 450m²</span>
+      </div>
+      <div class="property-price">₦180,000,000</div>
+      <button class="details-btn">View Details</button>
+    </div>
+  </div>
+</div>
+
+<button class="load">Load More Properties</button>
+  </div>
+</div>
+
+<div class="services">
+  <p class="pro">Professional <span>Services</span></p>
+  <p class="grey">Comprehensive real estate and architectural services designed to bring your vision to life and maximize your investment potential</p>
+
+  <div class="services-cards">
+    <div class="service-card">
+      <div class="service-icon"><i class="fa fa-line-chart"></i></div>
+      <h3>Investment Advisory</h3>
+      <p>Strategic real estate investment consulting to maximize returns and minimize risks.</p>
+      <ul>
+        <li>Investment portfolio analysis</li>
+        <li>Market trend forecasting</li>
+        <li>Risk assessment and mitigation</li>
+        <li>ROI optimization strategies</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><i class="fa fa-calculator"></i></div>
+      <h3>Property Valuation</h3>
+      <p>Professional property appraisal services using industry-standard methodologies and market data.</p>
+      <ul>
+        <li>Comprehensive property assessment</li>
+        <li>Market comparative analysis</li>
+        <li>Investment potential evaluation</li>
+        <li>Detailed valuation reports</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><i class="fa fa-users"></i></div>
+      <h3>Client Relations</h3>
+      <p>Dedicated client support throughout the entire property journey, ensuring satisfaction and success.</p>
+      <ul>
+        <li>Personalized consultation services</li>
+        <li>Regular project updates</li>
+        <li>After-sales support</li>
+        <li>Long-term relationship building</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><i class="fa fa-leaf"></i></div>
+      <h3>Architectural Consulting</h3>
+      <p>Complete architectural design services from concept to construction, specializing in luxury residential and commercial projects.</p>
+      <ul>
+        <li>Custom architectural design</li>
+        <li>3D visualization and modeling</li>
+        <li>Construction documentation</li>
+        <li>Project management oversight</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><i class="fa fa-building"></i></div>
+      <h3>Property Development</h3>
+      <p>End-to-end property development services, transforming ideas into profitable real estate investments.</p>
+      <ul>
+        <li>Site selection and analysis</li>
+        <li>Development feasibility studies</li>
+        <li>Construction management</li>
+        <li>Quality control and assurance</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><i class="fa fa-home"></i></div>
+      <h3>Real Estate Sales</h3>
+      <p>Expert guidance in buying and selling premium properties with comprehensive market knowledge.</p>
+      <ul>
+        <li>Property valuation services</li>
+        <li>Market analysis and pricing</li>
+        <li>Negotiation and closing support</li>
+        <li>Legal documentation assistance</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-content">
+    <p>&copy; 2025 Emmanuel Azubuike. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
